@@ -36,9 +36,9 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: "Rutgers Discovery Informatics Institute",
-        description: "Research Intern, July 2019 - August 2019",
-        link: "https://github.com/dbalouek/ChoreoMicroservices",
+        name: "Grade Support",
+        description: "Calculus Tutor, October 2018 - May 2020",
+        link: "https://gradesupport.org",
       },
       {
         name: "Code Ninjas",
@@ -46,9 +46,9 @@ module.exports = {
         link: "https://codeninjas.com/",
       },
       {
-        name: "Grade Support",
-        description: "Calculus Tutor, October 2018 - May 2020",
-        link: "https://gradesupport.org",
+        name: "Rutgers Discovery Informatics Institute",
+        description: "Research Intern, July 2019 - August 2019",
+        link: "https://rdi2.rutgers.edu/",
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -58,9 +58,12 @@ module.exports = {
         description: "Java, JavaScript, Python",
       },
       {
-        name: "Tools",
-        description:
-          "Git, UNIX Environment, Node JS, Express JS, Flask, Google Firebase, Android Studio",
+        name: "Frameworks",
+        description: "Node JS, Express JS, Flask, React Native",
+      },
+      {
+        name: "Technologies",
+        description: "Git, Android Studio, Google Firebase, Unity",
       },
     ],
   },
