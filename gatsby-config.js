@@ -36,18 +36,19 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: "Grade Support",
-        description: "Calculus Tutor, October 2018 - May 2020",
+        name: "Calculus Tutor",
+        description: "Grade Support, October 2018 - May 2020",
         link: "https://gradesupport.org",
       },
       {
-        name: "Code Ninjas",
-        description: "Instructor, June 2019 - March 2020",
+        name: "Code Instructor",
+        description: "Code Ninjas, June 2019 - March 2020",
         link: "https://codeninjas.com/",
       },
       {
-        name: "Rutgers Discovery Informatics Institute",
-        description: "Research Intern, July 2019 - August 2019",
+        name: "Research Intern",
+        description:
+          "Rutgers Discovery Informatics Institute, July 2019 - August 2019",
         link: "https://rdi2.rutgers.edu/",
       },
     ],
