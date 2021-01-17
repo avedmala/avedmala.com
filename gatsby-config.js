@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         name: "Technologies",
-        description: "Git, Android Studio, Google Firebase, Unity",
+        description: "Git, SQL, MongoDB, Android Studio, Google Firebase, Unity",
       },
     ],
   },
