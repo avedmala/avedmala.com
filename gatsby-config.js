@@ -56,7 +56,7 @@ module.exports = {
     skills: [
       {
         name: "Languages",
-        description: "Java, JavaScript, Python",
+        description: "Java, JavaScript, Python, SQL, Linux Bash, Latex",
       },
       {
         name: "Frameworks",
@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         name: "Technologies",
-        description: "Git, SQL, MongoDB, Android Studio, Google Firebase, Unity",
+        description: "Git, MongoDB, Android Studio, Google Firebase, Unity",
       },
     ],
   },
