@@ -5,15 +5,15 @@ module.exports = {
     // Your Name
     name: "Abhinav Vedmala",
     // Main Site Title
-    title: `Abhinav Vedmala | CS & Math Student`,
+    title: `Abhinav Vedmala`,
     // Description that goes under your name in main bio
-    description: `CS & Math Student @ the University of Maryland`,
+    description: `CS & Statistics Student from the University of Maryland`,
     // Optional: Github account URL
     github: `https://github.com/mrswagbhinav`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/abhinav-vedmala/`,
+    linkedin: `https://www.linkedin.com/in/avedmala/`,
     // Content of the About Me section
-    about: `I’m currently a freshman at the University of Maryland pursuing a double major in Computer Science on the Data Science track and Mathematics on the Statistics track. I’m deeply interested in Data Science and looking for learning opportunities in Big Data Analytics and Machine Learning.`,
+    about: `I’m currently a sophomore at the University of Maryland studying Computer Science and Statistics. I’m most interested in...`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -36,6 +36,16 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: "Software Engineering Intern",
+        description: "Capital One, June 2021 - Present",
+        link: "https://www.capitalone.com/",
+      },
+      {
+        name: "Undergraduate Research Assistant",
+        description: "Human-Computer Interaction Lab, University of Maryland, February 2021 – June 2021",
+        link: "https://hcil.umd.edu/",
+      },
+      {
         name: "Calculus Tutor",
         description: "Grade Support, October 2018 - May 2020",
         link: "https://gradesupport.org",
@@ -56,15 +66,15 @@ module.exports = {
     skills: [
       {
         name: "Languages",
-        description: "Java, JavaScript, Python, SQL, Linux Bash, Latex",
+        description: "Python, Java, JavaScript, C, Kotlin",
       },
       {
         name: "Frameworks",
-        description: "Node JS, Express JS, Flask, React Native",
+        description: "Express JS, Flask, React, React Native",
       },
       {
         name: "Technologies",
-        description: "Git, MongoDB, Android Studio, Google Firebase, Unity",
+        description: "Git, Node JS, MongoDB, Android Studio, Google Firebase, Unity",
       },
     ],
   },
@@ -75,6 +85,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
     {

@@ -1,7 +1,7 @@
 {
   "name": "devfolio",
   "private": true,
-  "description": "A modern and production-ready personal portfolio template built with GatsbyJs and TailwindCSS",
+  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
   "version": "0.1.0",
   "author": "Ryan Fitzgerald",
   "dependencies": {
