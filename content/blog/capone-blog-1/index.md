@@ -14,25 +14,27 @@ The other notable event was meeting our mentors: Paul and Shruti.
 
 By the second week, we began participating in daily standup with the NLP Services team. It was my first experience with Agile so we learned the basics. At this point, we recieved our problem statement and started planning how we were going to approach the problem.
 
+(To break down the problem into what needed to be done: we needed to add topic and summary processing components to an existing Intelligent Search API to provide topic identification insight.)
+
 We didn't have a clear idea of what we were going to do since we were working with a proprietary Capital One technology and everything was left open ended. However, this was for the best, Paul took the approach of guiding us towards the solution rather than telling us exactly what to do and we defeningly learned more that way.
 
 ### Week 3-4
 
-By week three were ready to start working on the problem and writing code. There was one problem, two of the components we needed for our project were still being worked on. These proprietary components served as wrappers around a Topic and Summary processor which used the LDA and RAKE algorithms.
+By week three were ready to start working on the problem and writing code. There was one issue, two of the components we needed for our project were still being worked on. These proprietary components served as wrappers around a Topic and Summary processor which used the LDA and RAKE algorithms.
 
-While we waited, we started experimenting with the underlying processors in Jupyter. We started out with running example notebooks.
+While we waited, we began experimenting with the underlying processors in Jupyter. We started out with running example notebooks.
 
 Then, we stepped it up to doing some data exploration with a call transcript dataset. We created some visualizations with Matplotlib and shared them with the business partner.
 
 ### Week 5
 
-Week five, the components still weren't ready. We spent this week contributing by doing some housekeeping. We updated some dependencies across several repositories. This gave us a better understanding of the codebase and how it was being used. This is also when we made our first Pull Request.
+The components still weren't ready so we spent this week contributing by doing some housekeeping. We updated some dependencies across several repositories. This gave us a better understanding of the codebase and was when we made our first Pull Requests.
 
-We were also introduced to pylint and pytest. All our code needed to be above a pylint score of 9.0 and we needed 80% coverage with our tests.
+We were also introduced to pylint and pytest. All our code needed to be above a pylint score of 9.0 and we needed at least 80% line coverage with our tests.
 
 ### Week 6
 
-We continued testing the search-api codebase and ran into a segfault. It was weird having a segfault in python, I've only ever ran into them in C. We spent a few days using pdb and stepping through the code to find the root cause. In the end, we had to use a workaround which involved running the code from a Docker container.
+We continued testing the search-api codebase and ran into a segfault. We spent a few days using pdb and stepping through the code to find the root cause. In the end, we had to use a workaround which involved running the code from a Docker container.
 
 It was frustrating to be stuck on a bug but in the end we learned Docker which was a cool outcome.
 
@@ -50,15 +52,15 @@ We also got the chance to prepare some slides on our progress and present them d
 
 Some more dependancy issues popped up so we had to make some PRs across a few codebases to fix them.
 
-We created a custom consolidator component which allowed us to combine the results from the topic and summary processors into the original dataset. The backend was now where we wanted it to be.
+We created a custom consolidator component which allowed us to aggregate the results from the topic and summary processors into the original dataset. The backend was now where we wanted it to be.
 
-As for the frontend, we reused a React codebase created by previous interns and refactored it to work with our backend. At this point, our original project was considered done.
+As for the frontend, we reused a React codebase created by previous interns and refactored it to work with our backend. It was cool to see some continuity in the programe. At this point, our original project was considered done.
 
 ### Week 9
 
 With two weeks left and most of our work done, we needed a plan for the rest of the Internship. We decided to combine our project with the other Interns' projects and create a final product.
 
-Our project did topic and summary processing and the other Interns' projects was an OCR processor powered by tesseract which retrieved text from images and PDFs. The goal was to have a search service which uses PDFs as input and makes them searchable with the topic and summary insights we generated.
+Our project did topic and summary processing and the other Interns' projects was an OCR processor which retrieved text from images and PDFs. The goal was to have a search service which uses PDFs as input and makes them searchable with the topic and summary insights we generated.
 
 I was responsible for creating a new workflow and a new API endpoint. I decided to document the entire API in OpenAPI which is a standard for REST APIs.
 
