@@ -7,42 +7,57 @@ module.exports = {
     // Main Site Title
     title: `Abhinav Vedmala`,
     // Description that goes under your name in main bio
-    description: `CS & Statistics Student from the University of Maryland`,
+    description: `Computer Science Student at the University of Maryland`,
     // Optional: Github account URL
-    github: `https://github.com/mrswagbhinav`,
+    github: `https://github.com/avedmala`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/avedmala/`,
+    linkedin: `https://www.linkedin.com/in/avedmala`,
     // Content of the About Me section
-    about: `I’m currently a sophomore at the University of Maryland studying Computer Science and Statistics. I'm really interested in back end development and getting the chance to work on challenging problems.`,
+    about: `I’m currently a sophomore at the University of Maryland, pursuing a degree in Computer Science. I have interests in backend development and getting the chance to work on challenging problems.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: "Spotify Party",
-        description: "A music playback syncing service built with Python Flask",
-        link: "https://github.com/mrswagbhinav/spotify-party",
+        description: "Web application that allows users to login and sync their Spotify music playback in a listening room.",
+        link: "https://github.com/avedmala/spotify-party",
+      },
+      {
+        name: "NASA SUITS Augmented Reality Challenge",
+        description: "Microsoft Hololens AR system which assists crewmembers with extravehicular activity tasks during a lunar mission.",
+        link: "https://github.com/SUITS-2022",
       },
       {
         name: "Weather Microservice",
         description:
-          "A Weather Microservice implemented using both Firebase serverless functions and an Express JS API",
-        link: "https://github.com/mrswagbhinav/weather-microservice",
+          "Microservices implemented using both Firebase serverless functions and an Express JS API.",
+        link: "https://github.com/avedmala/weather-microservice",
       },
       {
         name: "URL Shortener",
         description: "Simple URL Shortener built with Node JS and MongoDB",
-        link: "https://github.com/mrswagbhinav/url_shortener",
+        link: "https://github.com/avedmala/url_shortener",
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: "Undergraduate Researcher",
+        description: "NASA Goddard Space Flight Center, January 2022 - Present",
+        link: "https://www.nccs.nasa.gov/",
+      },
+      {
+        name: "Teaching Assistant",
+        description: "University of Maryland, September 2021 - Present",
+        link: "https://www.cs.umd.edu/",
+      },
       {
         name: "Software Engineering Intern",
         description: "Capital One, June 2021 - Present",
         link: "https://www.capitalone.com/",
       },
       {
-        name: "Undergraduate Research Assistant",
-        description: "Human-Computer Interaction Lab, University of Maryland, February 2021 – June 2021",
+        name: "Undergraduate Researcher",
+        description: "Human-Computer Interaction Lab, February 2021 – June 2021",
         link: "https://hcil.umd.edu/",
       },
       {
@@ -66,7 +81,7 @@ module.exports = {
     skills: [
       {
         name: "Languages",
-        description: "Python, Java, JavaScript, C, Kotlin",
+        description: "Java, Python, JavaScript, C, Kotlin, Ruby, OCaml, Rust, Matlab",
       },
       {
         name: "Frameworks",
@@ -74,7 +89,7 @@ module.exports = {
       },
       {
         name: "Technologies",
-        description: "Git, Node JS, MongoDB, Android Studio, Google Firebase, Unity",
+        description: "Git, Node JS, Jenkins, Pandas, MongoDB, Android Studio, Google Firebase, Unity",
       },
     ],
   },
