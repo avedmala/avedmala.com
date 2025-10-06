@@ -7,13 +7,13 @@ module.exports = {
     // Main Site Title
     title: `Abhinav Vedmala`,
     // Description that goes under your name in main bio
-    description: `Computer Science Student at the University of Maryland`,
+    description: `SWE at Datadog`,
     // Optional: Github account URL
     github: `https://github.com/avedmala`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/avedmala`,
     // Content of the About Me section
-    about: `I’m currently a sophomore at the University of Maryland, pursuing a degree in Computer Science. I have interests in backend development and getting the chance to work on challenging problems.`,
+    about: `I'm very into AI, coding agents, distributed systems, and shipping products.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -40,6 +40,18 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: 'Software Engineer, Dev Agent',
+        description:
+          'Datadog, July 2025 - Present. Building the next generation of coding agents to autonomously fix bugs and write tests.',
+        link: 'https://www.datadoghq.com/',
+      },
+      {
+        name: 'Software Engineer, Serverless',
+        description:
+          'Datadog, July 2024 - July 2025. Focused on serverless observability, including distributed tracing for AWS Lambda and Step Functions, and building autonomous AI investigators.',
+        link: 'https://www.datadoghq.com/',
+      },
       {
         name: "Undergraduate Researcher",
         description: "NASA Goddard Space Flight Center, January 2022 - Present",
