@@ -41,6 +41,11 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: "Software Engineer",
+        description: "Datadog, Present",
+        link: "https://www.datadoghq.com/",
+      },
+      {
         name: "Undergraduate Researcher",
         description: "NASA Goddard Space Flight Center, January 2022 - Present",
         link: "https://www.nccs.nasa.gov/",
